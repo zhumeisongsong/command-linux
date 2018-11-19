@@ -3,3 +3,7 @@
 ls | grep
 
 pwd
+
+service nginx restart
+
+
