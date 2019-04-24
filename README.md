@@ -10,6 +10,14 @@ systemclt restart nginx
 
 ssh-keygen
 
+# mySQL
+
+mysql -u root -p 
+
+show variables like 'port';
+
+quit；
+
 
 
 
