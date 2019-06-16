@@ -24,6 +24,14 @@ show variables like 'port';
 
 quit；
 
+> Rename a Database
+
+mysqldump -u username -p"password" -R oldDbName > oldDbName.sql
+
+mysqladmin -u username -p"password" create newDbName
+
+mysql -u username -p"password" newDbName < oldDbName.sql
+
 
 
 
