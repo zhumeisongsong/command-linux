@@ -14,6 +14,12 @@ ssh-keygen
 
 mysql -u root -p 
 
+show databases;
+
+use database-name;
+
+show tables;
+
 show variables like 'port';
 
 quit；
