@@ -2,6 +2,10 @@
 
 ls | grep
 
+lsof -i tcp:8080 
+
+kill pid
+
 pwd
 
 service nginx restart
